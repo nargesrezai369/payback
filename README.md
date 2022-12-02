@@ -1,12 +1,10 @@
-########################################################################################################################
+
 # About The Project
 
 PAYBACK, with more than 31 m customers, is the biggest loyalty program and largest multichannel marketing platform.
 This project is SpringBoot project for PAYBACK Challenges whit test services for challenges.
 The database that is used here is mongoDB NoSql.
 project includes 2 part. the first part is for coding challenge one and the second part is for coding challeng two.
-
-########################################################################################################################
 
 ## Challenge One
 
@@ -87,8 +85,6 @@ validFrom: Each coupon has a validFrom date that coupon has validated from it.
 validUntil: Each coupon has a validUntil date that coupon is validated until it.
 location: Each member has location (x,y).
 
-########################################################################################################################
-
 ## Challenge Two
 
 ### About Challenge Two
@@ -127,5 +123,3 @@ In the test class we test two condition, invalid game round and success status.
 
 Test 1 : call PayBackGameService.startGame method for test invalid round and we exepted RuntimeException.
 Test 2 : call PayBackGameService.startGame method for test success status.
-
-##################################################################################################################

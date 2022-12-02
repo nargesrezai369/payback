@@ -1,4 +1,4 @@
-########################################################################################################################
+#####################################################################################################
 # About The Project
 
 PAYBACK, with more than 31 m customers, is the biggest loyalty program and largest multichannel marketing platform.
@@ -6,13 +6,12 @@ This project is SpringBoot project for PAYBACK Challenges whit test services for
 The database that is used here is mongoDB NoSql.
 project includes 2 part. the first part is for coding challenge one and the second part is for coding challeng two.
 
-########################################################################################################################
+#####################################################################################################
 
 ## Challenge One
 
 ### About Challenge One
-First part is java code for challenge one that are in "com/business/payback/challengeOne" path. This package includes
-three layer, api, database and service layer.
+First part is java code for challenge one that are in "com/business/payback/challengeOne" path. This package includes three layer, api, database and service layer.
 
 #### Api layer:
 In api layer two packages are implemented.

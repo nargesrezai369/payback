@@ -35,7 +35,7 @@ for services.
 Test class path is : "com/business/payback/challengeOne".
 
 ## Running 
-
+Befor run the test you should run the application with PaybackApplication class.
 ### 1. Database setting 
 Run mongodb on localhost nad 27017 port
  
@@ -49,7 +49,7 @@ to getMembercoupons api, and it's expected return ChangeSetPersister.NotFoundExc
 Test 3: getMembercouponsSuccessTest method is for successful call for getMembercoupons api.
 
 ### 3. Call Rest api
-For testing rest api you should call below curl :
+For testing rest api you should call below curl after running PaybackApplication class on port 8080 :
 
 curl --location --request GET 'localhost:8080/payback/membercoupon' \
 --form 'memberId="638663b47193803dafba0000"' \
@@ -113,6 +113,7 @@ In test class for challengeTwo some condition has tested.
 Test class path is : "com/business/payback/challengeTne".
 
 ## Running 
+Befor test you should run the paybackApplication class.
 
 ### Start game
 For start the game, you should run the main method in PayBackGame class in challengeTwo package. At the first you should
